@@ -1,12 +1,12 @@
-def get_word_num(data_src, data_set_num):
-    word_to_idx = {}
-    cur_idx = 0
-    for data_set_id in range(data_set_num):
-        words = open("data\\" + data_src + "\\data_" + str(data_set_id) + ".txt",
+def get_word_num(data_src, training_data_set_ids):
+    vis_words = set()
+    word_num = 0
+    for data_set_id in training_data_set_ids:
+        words = open("data/" + data_src + "/data_" + str(data_set_id) + ".txt",
                      'r', encoding='utf-8').read().split()
         for word in words:
-            if word not in word_to_idx.keys():
-                word_to_idx[word] = cur_idx
-                cur_idx += 1
-    return cur_idx
+            if word not in vis_words:
+                vis_words.add(word)
+                word_num += 1
+    return word_num
 

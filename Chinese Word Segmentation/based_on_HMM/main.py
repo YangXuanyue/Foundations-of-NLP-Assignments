@@ -28,7 +28,4 @@ hmm = HMM(STATE_NUM, observation_num)
 hmm.supervised_learn(data_type, training_data_set_ids, delta=.099)
 hmm.viterbi_decode(data_type, test_data_set_ids)
 
-print("precision = %.4f%%\n"
-      "recall = %.4f%%\n"
-      "f = %.4f%%"
-      % (evaluate_result(data_src, data_type, test_data_set_ids)))
+evaluate_result(data_src, data_type, test_data_set_ids)

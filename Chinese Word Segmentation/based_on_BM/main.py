@@ -5,6 +5,7 @@ DATA_SET_NUM = 10
 TRAINING_DATA_PROPORTION = .8
 data_src = "based_on_BM"
 data_type = "reordered"
+training_data_set_ids = range(int(TRAINING_DATA_PROPORTION * DATA_SET_NUM))
 test_data_set_ids = range(int(TRAINING_DATA_PROPORTION * DATA_SET_NUM), DATA_SET_NUM)
 
 FORWARD = 0
@@ -37,7 +38,7 @@ def max_match(direction, sentence):
             segmented_sentence.append(word[:: -1])
     return segmented_sentence, in_dictionary_word_cnt
 
-
+# gen_dictionary(data_type, training_data_set_ids)
 load_dictionary()
 
 for data_set_id in test_data_set_ids:
@@ -58,9 +59,6 @@ for data_set_id in test_data_set_ids:
                 else segmented_sentence_b
             result_file.write(' '.join(segmented_sentence) + '\n')
 
-print("precision = %.4f%%\n"
-      "recall = %.4f%%\n"
-      "f = %.4f%%"
-      % (evaluate_result(data_src, data_type, test_data_set_ids)))
+evaluate_result(data_src, data_type, test_data_set_ids)
 
 # 92.1624

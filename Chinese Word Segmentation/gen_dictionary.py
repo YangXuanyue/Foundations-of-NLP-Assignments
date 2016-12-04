@@ -4,9 +4,9 @@ forward_dictionary = Trie()
 backward_dictionary = Trie()
 
 
-def gen_dictionary(data_type, data_set_num):
+def gen_dictionary(data_type, training_data_set_ids):
     out_file = open("../data/dictionary.txt", 'w+', encoding='utf-8')
-    for data_set_id in range(data_set_num):
+    for data_set_id in training_data_set_ids:
         words = open("../data/" + data_type + "/segmented/segmented_data_" + str(data_set_id) + ".txt",
                      'r', encoding='utf-8').read().split()
         for word in words:

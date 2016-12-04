@@ -51,5 +51,9 @@ def evaluate_result(data_src, data_type, test_data_set_ids):
     precision = correct_word_cnt / total_result_word_cnt
     recall = correct_word_cnt / total_stand_word_cnt
     f = 2 * precision * recall / (precision + recall)
-    return precision * 100, recall * 100, f * 100
+    print("precision = %.4f%%\n"
+          "recall = %.4f%%\n"
+          "f = %.4f%%"
+          % (precision * 100, recall * 100, f * 100))
+
 
