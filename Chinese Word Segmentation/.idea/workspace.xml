@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfb7c3d3-7c30-4211-ac71-9226e057a399" name="Default" comment="" />
+    <list default="true" id="bfb7c3d3-7c30-4211-ac71-9226e057a399" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/he.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/article_level/data_9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/HMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/data/1998-01-105-带音.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/evaluate_result.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/gen_reordered_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/gen_word_and_tag_idx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/main.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/reordered/data_9.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/based_on_HMM/HMM.py" afterPath="$PROJECT_DIR$/based_on_HMM/HMM.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/based_on_HMM/main.py" afterPath="$PROJECT_DIR$/based_on_HMM/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../N-Gram Language Model/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/NGramLM.py" afterPath="$PROJECT_DIR$/../N-Gram Language Model/NGramLM.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/data/1998-01-105-带音.txt" afterPath="$PROJECT_DIR$/../N-Gram Language Model/data/1998-01-105-带音.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/gen_reordered_data.py" afterPath="$PROJECT_DIR$/../N-Gram Language Model/gen_reordered_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/get_word_num.py" afterPath="$PROJECT_DIR$/../N-Gram Language Model/get_word_num.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/main.py" afterPath="$PROJECT_DIR$/../N-Gram Language Model/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POS Tagging/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POS Tagging/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +52,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Chinese Word Segmentation$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1480440238364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/based_on_BM" />
     <SUITE FILE_PATH="coverage/Chinese Word Segmentation$gen_dictionary.coverage" NAME="gen_dictionary Coverage Results" MODIFIED="1480440561676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Chinese Word Segmentation$main.coverage" NAME="main Coverage Results" MODIFIED="1480464529807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/based_on_HMM" />
+    <SUITE FILE_PATH="coverage/Chinese Word Segmentation$main.coverage" NAME="main Coverage Results" MODIFIED="1480938013680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/based_on_HMM" />
     <SUITE FILE_PATH="coverage/Chinese Word Segmentation$builtins.coverage" NAME="builtins Coverage Results" MODIFIED="1480438149242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2016.3/system/python_stubs/830134243" />
     <SUITE FILE_PATH="coverage/Chinese Word Segmentation$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1480765187657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/based_on_BM" />
   </component>
@@ -36,8 +76,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/based_on_HMM/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,31 +86,51 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/based_on_BM/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="114">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluate_result.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="evaluate_result.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evaluate_result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="106">
+              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HMM.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HMM.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/based_on_HMM/HMM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="226">
+              <caret line="117" column="48" lean-forward="false" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_reordered_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen_reordered_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raw_data_0.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/reordered/raw/raw_data_0.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +158,8 @@
       <file leaf-file-name="gen_dictionary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen_dictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="315">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,7 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data_src</find>
       <find>data/</find>
       <find>../..data/</find>
       <find>..data/</find>
@@ -127,12 +186,18 @@
       <find>代</find>
       <find>法国</find>
       <find>代代红</find>
+      <find>data_src</find>
+      <find>transita</find>
     </findStrings>
     <replaceStrings>
       <replace>..data/</replace>
       <replace>../data/</replace>
       <replace>/</replace>
+      <replace>data_type</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,7 +209,6 @@
         <option value="$PROJECT_DIR$/gen_ordered_data.py" />
         <option value="$PROJECT_DIR$/gen_char_idx.py" />
         <option value="$PROJECT_DIR$/data/char_idx.txt" />
-        <option value="$PROJECT_DIR$/based_on_HMM/HMM.py" />
         <option value="$PROJECT_DIR$/data/dictionary.txt" />
         <option value="$PROJECT_DIR$/based_on_BM/Trie.py" />
         <option value="$PROJECT_DIR$/gen_dictionary.py" />
@@ -152,6 +216,7 @@
         <option value="$PROJECT_DIR$/evaluate_result.py" />
         <option value="$PROJECT_DIR$/based_on_BM/main.py" />
         <option value="$PROJECT_DIR$/based_on_HMM/main.py" />
+        <option value="$PROJECT_DIR$/based_on_HMM/HMM.py" />
       </list>
     </option>
   </component>
@@ -167,6 +232,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -206,7 +272,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reordered" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="based_on_HMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="based_on_HMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reordered" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chinese Word Segmentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="based_on_HMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,7 +427,7 @@
       <recent name="C:\Users\he\Desktop\NLP Assignments\Chinese Word Segmentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -603,8 +741,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python.gen_dictionary" />
         <item index="3" class="java.lang.String" itemvalue="Python.Trie" />
         <item index="4" class="java.lang.String" itemvalue="Python.builtins" />
@@ -639,22 +777,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3268945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,20 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen_reordered_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-913">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/reordered/raw/raw_data_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1009,45 +1133,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen_dictionary.py">
+    <entry file="file://$PROJECT_DIR$/data/reordered/raw/raw_data_0.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="386">
+          <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate_result.py">
+    <entry file="file://$PROJECT_DIR$/gen_reordered_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="302">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/based_on_HMM/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/based_on_BM/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="310">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/based_on_HMM/HMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="117" column="48" lean-forward="false" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/based_on_BM/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

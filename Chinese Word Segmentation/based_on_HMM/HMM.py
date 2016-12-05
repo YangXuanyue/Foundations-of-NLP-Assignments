@@ -12,7 +12,7 @@ class HMM:
         self.observation_num = observation_num
         self.start_prob = [0] * state_num
         self.transition_prob = [[0] * state_num for i in range(state_num)]
-        self.canTransit = [[False] * state_num for i in range(state_num)]
+        self.transitable = [[False] * state_num for i in range(state_num)]
         self.emission_prob = [[0] * observation_num for i in range(state_num)]
         return
 
@@ -44,7 +44,7 @@ class HMM:
             # print(prob[observation])
             prob[observation] = log(prob[observation]) - log(total_prob)
 
-    def supervised_learn(self, data_src, training_data_set_ids, delta):  # delta is for add-delta smoothing
+    def supervised_learn(self, data_type, training_data_set_ids, delta):  # delta is for add-delta smoothing
         state_cnt = [0] * self.state_num
         total_state_cnt = 0
         transition_cnt = [[0] * self.state_num for i in range(self.state_num)]
@@ -55,7 +55,7 @@ class HMM:
         # total_observation_cnt = 0
 
         for data_set_id in training_data_set_ids:
-            tagged_data = open("../data/" + data_src + "/tagged/tagged_data_" + str(data_set_id) + ".txt",
+            tagged_data = open("../data/" + data_type + "/tagged/tagged_data_" + str(data_set_id) + ".txt",
                                'r', encoding='utf-8')
             for line in tagged_data:
                 line = line.strip()
@@ -78,7 +78,7 @@ class HMM:
                                          - log(total_state_cnt)
             for nxt_state in range(self.state_num):
                 if transition_cnt[cur_state][nxt_state] > 0:
-                    self.canTransit[cur_state][nxt_state] = True
+                    self.transitable[cur_state][nxt_state] = True
                     self.transition_prob[cur_state][nxt_state] = log(transition_cnt[cur_state][nxt_state]) \
                                                                  - log(total_transition_cnt[cur_state])
             self.lidstone_smooth(self.emission_prob[cur_state],
@@ -110,7 +110,7 @@ class HMM:
                     for t in range(1, observations_len):
                         for cur_state in range(self.state_num):
                             for prv_state in range(self.state_num):
-                                if self.canTransit[prv_state][cur_state]:
+                                if self.transitable[prv_state][cur_state]:
                                     tmp_prob = max_prob[t - 1][prv_state] \
                                                + self.transition_prob[prv_state][cur_state] \
                                                + self.emission_prob[cur_state][observations[t]]

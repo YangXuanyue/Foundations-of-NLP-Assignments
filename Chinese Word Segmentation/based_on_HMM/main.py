@@ -21,8 +21,8 @@ observation_num = load_char_idx()
 
 data_src = "based_on_HMM"
 data_type = "reordered"
-training_data_set_ids = [i for i in range(int(TRAINING_DATA_PROPORTION * DATA_SET_NUM))]
-test_data_set_ids = [i for i in range(int(TRAINING_DATA_PROPORTION * DATA_SET_NUM), DATA_SET_NUM)]
+training_data_set_ids = range(int(TRAINING_DATA_PROPORTION * DATA_SET_NUM))
+test_data_set_ids = range(int(TRAINING_DATA_PROPORTION * DATA_SET_NUM), DATA_SET_NUM)
 
 hmm = HMM(STATE_NUM, observation_num)
 hmm.supervised_learn(data_type, training_data_set_ids, delta=.099)
