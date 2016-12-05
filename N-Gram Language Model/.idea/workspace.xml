@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d69854-7ee3-4829-89d3-9611245436c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Chinese Word Segmentation/.idea/dictionaries/he.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Chinese Word Segmentation/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_6.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_7.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/reordered/article_level/data_9.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/HMM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/data/1998-01-105-带音.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/evaluate_result.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/gen_reordered_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/gen_word_and_tag_idx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../POS Tagging/main.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/reordered/data_9.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chinese Word Segmentation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Chinese Word Segmentation/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chinese Word Segmentation/based_on_HMM/HMM.py" afterPath="$PROJECT_DIR$/../Chinese Word Segmentation/based_on_HMM/HMM.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Chinese Word Segmentation/based_on_HMM/main.py" afterPath="$PROJECT_DIR$/../Chinese Word Segmentation/based_on_HMM/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NGramLM.py" afterPath="$PROJECT_DIR$/NGramLM.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/1998-01-105-带音.txt" afterPath="$PROJECT_DIR$/data/1998-01-105-带音.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen_reordered_data.py" afterPath="$PROJECT_DIR$/gen_reordered_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_word_num.py" afterPath="$PROJECT_DIR$/get_word_num.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POS Tagging/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POS Tagging/.idea/workspace.xml" />
     </list>
     <ignored path="N-Gram Language Model.iws" />
@@ -66,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="233">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -78,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_4.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_4.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/reordered/article_level/data_4.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1454">
@@ -129,6 +93,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -585,10 +552,18 @@
       <option name="presentableId" value="Default" />
       <updated>1477567831047</updated>
     </task>
+    <task id="LOCAL-00001" summary="Make some changes.">
+      <created>1480952445015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480952445015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40043923" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -644,6 +619,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Make some changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Make some changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,21 +983,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/reordered/article_level/data_4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1454">
           <caret line="338" column="17" lean-forward="false" selection-start-line="338" selection-start-column="17" selection-end-line="338" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
