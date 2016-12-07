@@ -56,4 +56,3 @@ def evaluate_result(data_src, data_type, test_data_set_ids):
           "f = %.4f%%"
           % (precision * 100, recall * 100, f * 100))
 
-

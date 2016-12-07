@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb7c3d3-7c30-4211-ac71-9226e057a399" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/.idea/Sentiment Polarity Analysis.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/TextCNN.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Sentiment Polarity Analysis/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluate_result.py" afterPath="$PROJECT_DIR$/evaluate_result.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Gram Language Model/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../N-Gram Language Model/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POS Tagging/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POS Tagging/.idea/workspace.xml" />
     </list>
@@ -41,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/based_on_HMM/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +69,8 @@
       <file leaf-file-name="evaluate_result.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evaluate_result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="1045">
+              <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -162,6 +171,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,10 +189,10 @@
         <option value="$PROJECT_DIR$/based_on_BM/Trie.py" />
         <option value="$PROJECT_DIR$/gen_dictionary.py" />
         <option value="$PROJECT_DIR$/based_on_BM/results/reordered/segmented/segmented_result_9.txt" />
-        <option value="$PROJECT_DIR$/evaluate_result.py" />
         <option value="$PROJECT_DIR$/based_on_BM/main.py" />
         <option value="$PROJECT_DIR$/based_on_HMM/main.py" />
         <option value="$PROJECT_DIR$/based_on_HMM/HMM.py" />
+        <option value="$PROJECT_DIR$/evaluate_result.py" />
       </list>
     </option>
   </component>
@@ -196,7 +208,9 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -724,6 +738,14 @@
       <option name="presentableId" value="Default" />
       <updated>1480408821607</updated>
     </task>
+    <task id="LOCAL-00001" summary="Make some changes.">
+      <created>1480952545091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480952545091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -764,6 +786,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Make some changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Make some changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1124,7 +1150,7 @@
     <entry file="file://$PROJECT_DIR$/based_on_HMM/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1149,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluate_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="1045">
+          <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding />
         </state>
       </provider>
