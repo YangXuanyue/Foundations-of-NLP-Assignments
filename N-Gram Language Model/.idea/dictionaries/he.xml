@@ -1,7 +1,11 @@
 <component name="ProjectDictionaryState">
   <dictionary name="he">
     <words>
+      <w>backoff</w>
       <w>bigram</w>
+      <w>cnts</w>
+      <w>katz</w>
+      <w>probs</w>
       <w>unigram</w>
     </words>
   </dictionary>

@@ -16,7 +16,7 @@ def gen_reordered_data(data_set_num, text_level):
     for data_set_id in range(data_set_num):
         data_file = open("data/reordered/" + text_level + "_level/data_" + str(data_set_id) + ".txt", 'w+',
                          encoding='utf-8')
-        data_file.write('')
+        data_file.write()
 
     if text_level == "article":
         cur_article = []
@@ -28,7 +28,7 @@ def gen_reordered_data(data_set_num, text_level):
                         cur_word += char
                     else:
                         if len(cur_word) > 0:
-                            cur_paragraph += cur_word + ' '
+                            cur_paragraph += cur_word + " "
                             cur_word = ""
                 cur_article.append(cur_paragraph)
                 cur_paragraph = ""
@@ -72,9 +72,9 @@ def gen_reordered_data(data_set_num, text_level):
                         cur_word += char
                     else:
                         if len(cur_word) > 0:
-                            cur_paragraph += cur_word + ' '
+                            cur_paragraph += cur_word + " "
                             cur_word = ""
-    else: # text_level = "sentence"
+    else:  # text_level = "sentence"
         pass
     for data_set_id in range(data_set_num):
         if data_buf_len[data_set_id] > 0:
